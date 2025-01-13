@@ -1,0 +1,15 @@
+.content {
+  padding: 20px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  margin-top: 50px;
+  
+}
