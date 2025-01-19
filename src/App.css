@@ -2,14 +2,49 @@
   padding: 20px;
 }
 
-.personal-info {
-  display: flex;
-  flex-direction: column;
-}
-
 button {
   width: 200px;
   height: 40px;
   margin-top: 50px;
-  
+}
+
+.personal-info,
+.education,
+.work,
+.skills,
+.certifications {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.personal-info label,
+.education label,
+.work label,
+.skills label,
+.certifications label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.personal-info input,
+.education input,
+.work input,
+.skills input,
+.certifications input {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.preview {
+  background-color: #FFF;
+  color: black;
+  margin-top: 50px;
 }

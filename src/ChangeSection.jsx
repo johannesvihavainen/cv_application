@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
-function ChangeSection( {changeSection}) {
-  
+function ChangeSection({ changeSection }) {
+
     const sections = [
+        'personal-info',
         'education',
         'work',
         'skills',
